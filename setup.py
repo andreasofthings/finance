@@ -22,6 +22,8 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     install_requires=[
-        'pandas',
-    ]
+        'pandas_datareader',
+    ],
+    setup_requires=['pytest-runner', ],
+    tests_require=['pytest', ],
 )
